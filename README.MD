@@ -1,1 +1,11 @@
-# Modelos basados en inteligencia artificial aplicada para la predicción de la incidencia de enfermedades prevenibles por vacunación contempladas en el Programa Nacional de Vacunación Universal
+# Proyecto Integrador Equipo 32
+
+-----
+
+## Miembros del Equipo
+
+  * `Luis Mauricio Castro Gutiérrez - A01795088`
+  * `Gerardo Miguel Pérez Solis - A01795599`
+  * `Amiel Joel Rosete Islas - A01748598`
+
+-----
