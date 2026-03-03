@@ -1,0 +1,974 @@
+{
+  "saved_at": "2026-03-02T11:07:44.120092",
+  "desfase": 2,
+  "rmse_cv": 2.4092497647545104,
+  "params": {
+    "changepoint_prior_scale": 0.001,
+    "seasonality_prior_scale": 0.1,
+    "seasonality_mode": "additive",
+    "yearly_seasonality": false
+  },
+  "resultados_grid": [
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 4.617508607851152
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 6.305162163290714
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 7.789455140289514
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 6.551591988571022
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 2.7711157760694887
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 7.789455140289514
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 12.923688403859444
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 5.20100202113991
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 7.789455140289514
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 13.786825758471988
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 5.382952121608921
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 7.789455140289514
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 17.80562986132826
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 6.17858152138149
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.001,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 7.789455140289514
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 4.681930386063131
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 4.9958373533975875
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 5.449985361258542
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 6.873066440167625
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 3.9309932242836103
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 5.449985361258542
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 14.341468637619343
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 4.471068977091444
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 5.449985361258542
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 13.958715900503375
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 5.203665100066025
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 5.449985361258542
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 14.089834281270292
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 4.13481607162588
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 5.449985361258542
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 4.64175310633774
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 5.0509733885697745
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 5.226133540938236
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 6.826000028580652
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 2.7269894416840272
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 5.226133540938236
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 16.462825588313596
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 2.684405011883119
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 5.226133540938236
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 13.947768931216196
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 2.446353423297457
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 5.226133540938236
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 21.192320598730713
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 2.5328983371978797
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 5.226133540938236
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 4.6511364936112845
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 4.739876323261615
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 5.205469658796329
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 6.915221745878467
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 2.487718378700362
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 5.205469658796329
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 16.52642734111461
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 2.4525560682341183
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 5.205469658796329
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 14.74911235601107
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 2.4713671277749296
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 5.205469658796329
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 9.845692661831382
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.4092497647545104
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 2.409257553610901
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 5.205469658796329
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 5.552513665690628
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.6585484788599563
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 4.219842281099954
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 4.3961926434195995
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 28.197827284568664
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.6585484788599563
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 2.4092506582031823
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 4.3961926434195995
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 13.873054678853157
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.6585484788599563
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 2.4092502542977465
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 4.3961926434195995
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 24.995676764441985
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.6585484788599563
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 2.409281922535505
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 4.3961926434195995
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 14.889323668651663
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.6585484788599563
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 2.409250835430264
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 0.5,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 4.3961926434195995
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 14.924336025513481
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.418029514531445
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 2.411443920853944
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 0.1,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 6.05189956975101
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 12.252543750233057
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.418029514531445
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 2.409249889530426
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 6.05189956975101
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 70.49846562732695
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.418029514531445
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 2.4092732629788305
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 5.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 6.05189956975101
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 37.353097391590495
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.418029514531445
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 2.4092597978525534
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 6.05189956975101
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": true,
+      "rmse_cv": 32.80335631996698
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "additive",
+      "yearly_seasonality": false,
+      "rmse_cv": 2.418029514531445
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": true,
+      "rmse_cv": 2.409281287496192
+    },
+    {
+      "desfase_meses": 2,
+      "changepoint_prior_scale": 1.0,
+      "seasonality_prior_scale": 20.0,
+      "seasonality_mode": "multiplicative",
+      "yearly_seasonality": false,
+      "rmse_cv": 6.05189956975101
+    }
+  ],
+  "total_combinaciones": 120
+}
