@@ -1,0 +1,9 @@
+{
+  "params": {
+    "changepoint_prior_scale": 1.0,
+    "seasonality_prior_scale": 0.1,
+    "seasonality_mode": "multiplicative",
+    "yearly_seasonality": true
+  },
+  "rmse_cv": 2.6022865678225613
+}
